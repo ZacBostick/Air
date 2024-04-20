@@ -22,4 +22,3 @@ func Chain(f http.HandlerFunc, middlewares ...Middleware) http.HandlerFunc {
     }
     return f
 }
-

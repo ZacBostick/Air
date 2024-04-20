@@ -7,8 +7,6 @@ import (
 
 func main() {
     router := NewRouter()
-    
-    // Use Chain to apply Logger middleware to the handler
     router.HandleFunc("GET", "/", Chain(func(w http.ResponseWriter, r *http.Request) {
         fmt.Fprintln(w, "Welcome to Air!")
     }, Logger()))
@@ -18,4 +16,3 @@ func main() {
         fmt.Println("Server failed to start:", err)
     }
 }
-

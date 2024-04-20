@@ -13,7 +13,7 @@ Air is an ultra-lightweight web server framework written in Go, designed to offe
 Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/air.git
+git clone https://github.com/ZacBostick/Air.git
 ```
 Navigate to the cloned directory:
 ```bash

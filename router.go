@@ -32,4 +32,3 @@ func (router *Router) ServeHTTP(w http.ResponseWriter, r *http.Request) {
         http.NotFound(w, r)
     }
 }
-
